@@ -1,0 +1,78 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci ;
+USE `mydb` ;
+
+-- -----------------------------------------------------
+-- Table `mydb`.`libros`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `mydb`.`libros` ;
+
+CREATE  TABLE IF NOT EXISTS `mydb`.`libros` (
+  `id_libro` INT NOT NULL AUTO_INCREMENT ,
+  `titulo` VARCHAR(255) NOT NULL ,
+  `categoria` VARCHAR(45) NULL ,
+  `cant_hojas` INT NULL ,
+  `contra_tapa` MEDIUMTEXT NULL ,
+  `editorial` VARCHAR(45) NULL ,
+  `precio` DECIMAL(2) NOT NULL ,
+  `año` INT NULL ,
+  `indice` LONGTEXT NULL ,
+  `stock` INT NOT NULL ,
+  PRIMARY KEY (`id_libro`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`autores`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `mydb`.`autores` ;
+
+CREATE  TABLE IF NOT EXISTS `mydb`.`autores` (
+  `id_autores` INT NOT NULL ,
+  `nombre` VARCHAR(45) NOT NULL ,
+  `apellido` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id_autores`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`libro-autor`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `mydb`.`libro-autor` ;
+
+CREATE  TABLE IF NOT EXISTS `mydb`.`libro-autor` (
+  `libros_id_libro` INT NOT NULL ,
+  `autores_id_autores` INT NOT NULL ,
+  PRIMARY KEY (`libros_id_libro`, `autores_id_autores`) ,
+  INDEX `fk_libro-autor_autores1_idx` (`autores_id_autores` ASC) ,
+  CONSTRAINT `fk_libro-autor_libros`
+    FOREIGN KEY (`libros_id_libro` )
+    REFERENCES `mydb`.`libros` (`id_libro` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_libro-autor_autores1`
+    FOREIGN KEY (`autores_id_autores` )
+    REFERENCES `mydb`.`autores` (`id_autores` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`usuario`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `mydb`.`usuario` ;
+CREATE  TABLE `mydb`.`usuario` (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARCHAR(45) NOT NULL ,  `pass` VARCHAR(45) NOT NULL ,  `direccion` VARCHAR(45) NOT NULL ,  `fechaNac` DATE NULL ,  `telefono` INT NULL, `tipo-usuario` BINARY NOT NULL  ,  PRIMARY KEY (`email`) );
+
+-- -----------------------------------------------------
+-- Table `mydb`.`usuario-libro`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `mydb`.`usuario-libro` ;
+CREATE  TABLE `mydb`.`usuario-libro` (  `email` VARCHAR(45) NOT NULL ,  `id_libro` INT NOT NULL ,  PRIMARY KEY (`email`, `id_libro`) ,  INDEX `usuario-Email_idx` (`email` ASC) ,  INDEX `libro-Id_libro_idx` (`id_libro` ASC) ,  CONSTRAINT `usuario-Email`    FOREIGN KEY (`email` )    REFERENCES `mydb`.`usuario` (`email` )    ON DELETE NO ACTION    ON UPDATE NO ACTION,  CONSTRAINT `libro-Id_libro`    FOREIGN KEY (`id_libro` )    REFERENCES `mydb`.`libros` (`id_libro` )    ON DELETE NO ACTION    ON UPDATE NO ACTION);
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
