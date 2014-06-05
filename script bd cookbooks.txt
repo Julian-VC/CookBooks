@@ -31,7 +31,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`autores` ;
 
 CREATE  TABLE IF NOT EXISTS `mydb`.`autores` (
-  `id_autores` INT NOT NULL ,
+  `id_autores` INT NOT NULL AUTO_INCREMENT ,
   `nombre` VARCHAR(45) NOT NULL ,
   `apellido` VARCHAR(45) NOT NULL ,
   PRIMARY KEY (`id_autores`) )
