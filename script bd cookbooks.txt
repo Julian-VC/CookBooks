@@ -17,11 +17,12 @@ CREATE  TABLE IF NOT EXISTS `mydb`.`libros` (
   `cant_hojas` INT NULL ,
   `contra_tapa` MEDIUMTEXT NULL ,
   `editorial` VARCHAR(45) NULL ,
-  `precio` DECIMAL(2) NOT NULL ,
+  `precio` DECIMAL(6,2) NOT NULL ,
   `año` INT NULL ,
   `indice` LONGTEXT NULL ,
   `stock` INT NOT NULL ,
-  PRIMARY KEY (`id_libro`) )
+  PRIMARY KEY (`id_libro`),
+  UNIQUE KEY `titulo_UNIQUE` (`titulo`) )
 ENGINE = InnoDB;
 
 
@@ -39,11 +40,11 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`libro-autor`
+-- Table `mydb`.`libro_autor`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `mydb`.`libro-autor` ;
+DROP TABLE IF EXISTS `mydb`.`libro_autor` ;
 
-CREATE  TABLE IF NOT EXISTS `mydb`.`libro-autor` (
+CREATE  TABLE IF NOT EXISTS `mydb`.`libro_autor` (
   `libros_id_libro` INT NOT NULL ,
   `autores_id_autores` INT NOT NULL ,
   PRIMARY KEY (`libros_id_libro`, `autores_id_autores`) ,
@@ -51,12 +52,12 @@ CREATE  TABLE IF NOT EXISTS `mydb`.`libro-autor` (
   CONSTRAINT `fk_libro-autor_libros`
     FOREIGN KEY (`libros_id_libro` )
     REFERENCES `mydb`.`libros` (`id_libro` )
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_libro-autor_autores1`
     FOREIGN KEY (`autores_id_autores` )
     REFERENCES `mydb`.`autores` (`id_autores` )
-    ON DELETE NO ACTION
+    ON DELETE CASCADE
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
@@ -71,7 +72,7 @@ CREATE  TABLE `mydb`.`usuario` (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARC
 -- Table `mydb`.`usuario-libro`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `mydb`.`usuario-libro` ;
-CREATE  TABLE `mydb`.`usuario-libro` (  `email` VARCHAR(45) NOT NULL ,  `id_libro` INT NOT NULL ,  PRIMARY KEY (`email`, `id_libro`) ,  INDEX `usuario-Email_idx` (`email` ASC) ,  INDEX `libro-Id_libro_idx` (`id_libro` ASC) ,  CONSTRAINT `usuario-Email`    FOREIGN KEY (`email` )    REFERENCES `mydb`.`usuario` (`email` )    ON DELETE NO ACTION    ON UPDATE NO ACTION,  CONSTRAINT `libro-Id_libro`    FOREIGN KEY (`id_libro` )    REFERENCES `mydb`.`libros` (`id_libro` )    ON DELETE NO ACTION    ON UPDATE NO ACTION);
+CREATE  TABLE `mydb`.`usuario-libro` (  `email` VARCHAR(45) NOT NULL ,  `id_libro` INT NOT NULL ,  PRIMARY KEY (`email`, `id_libro`) ,  INDEX `usuario-Email_idx` (`email` ASC) ,  INDEX `libro-Id_libro_idx` (`id_libro` ASC) ,  CONSTRAINT `usuario-Email`    FOREIGN KEY (`email` )    REFERENCES `mydb`.`usuario` (`email` )    ON DELETE NO ACTION    ON UPDATE NO ACTION,  CONSTRAINT `libro-Id_libro`    FOREIGN KEY (`id_libro` )    REFERENCES `mydb`.`libros` (`id_libro` )    ON DELETE CASCADE    ON UPDATE NO ACTION);
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
