@@ -66,13 +66,13 @@ ENGINE = InnoDB;
 -- Table `mydb`.`usuario`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `mydb`.`usuario` ;
-CREATE  TABLE `mydb`.`usuario` (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARCHAR(45) NOT NULL ,  `pass` VARCHAR(45) NOT NULL ,  `direccion` VARCHAR(45) NOT NULL ,  `fechaNac` DATE NULL ,  `telefono` INT NULL, `tipo-usuario` BINARY NOT NULL  ,  PRIMARY KEY (`email`) );
+CREATE  TABLE `mydb`.`usuario` (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARCHAR(45) NOT NULL ,  `pass` VARCHAR(45) NOT NULL ,  `direccion` VARCHAR(45) NOT NULL ,  `fechaNac` DATE NULL ,  `telefono` INT NULL, `tipo_usuario` BINARY NOT NULL  ,  PRIMARY KEY (`email`) );
 
 -- -----------------------------------------------------
--- Table `mydb`.`usuario-libro`
+-- Table `mydb`.`usuario_libro`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `mydb`.`usuario-libro` ;
-CREATE  TABLE `mydb`.`usuario-libro` (  `email` VARCHAR(45) NOT NULL ,  `id_libro` INT NOT NULL ,  PRIMARY KEY (`email`, `id_libro`) ,  INDEX `usuario-Email_idx` (`email` ASC) ,  INDEX `libro-Id_libro_idx` (`id_libro` ASC) ,  CONSTRAINT `usuario-Email`    FOREIGN KEY (`email` )    REFERENCES `mydb`.`usuario` (`email` )    ON DELETE NO ACTION    ON UPDATE NO ACTION,  CONSTRAINT `libro-Id_libro`    FOREIGN KEY (`id_libro` )    REFERENCES `mydb`.`libros` (`id_libro` )    ON DELETE CASCADE    ON UPDATE NO ACTION);
+DROP TABLE IF EXISTS `mydb`.`usuario_libro` ;
+CREATE  TABLE `mydb`.`usuario_libro` (  `email` VARCHAR(45) NOT NULL ,  `id_libro` INT NOT NULL ,  PRIMARY KEY (`email`, `id_libro`) ,  INDEX `usuario_Email_idx` (`email` ASC) ,  INDEX `libro_Id_libro_idx` (`id_libro` ASC) ,  CONSTRAINT `usuario_Email`    FOREIGN KEY (`email` )    REFERENCES `mydb`.`usuario` (`email` )    ON DELETE NO ACTION    ON UPDATE NO ACTION,  CONSTRAINT `libro_Id_libro`    FOREIGN KEY (`id_libro` )    REFERENCES `mydb`.`libros` (`id_libro` )    ON DELETE CASCADE    ON UPDATE NO ACTION);
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
