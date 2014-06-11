@@ -66,7 +66,7 @@ ENGINE = InnoDB;
 -- Table `mydb`.`usuario`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `mydb`.`usuario` ;
-CREATE  TABLE `mydb`.`usuario` (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARCHAR(45) NOT NULL ,  `pass` VARCHAR(45) NOT NULL ,  `direccion` VARCHAR(45) NOT NULL ,  `fechaNac` DATE NULL ,  `telefono` INT NULL, `tipo_usuario` BINARY NOT NULL  ,  PRIMARY KEY (`email`) );
+CREATE  TABLE `mydb`.`usuario` (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARCHAR(45) NOT NULL ,  `pass` VARCHAR(45) NOT NULL ,  `direccion` VARCHAR(45) NOT NULL ,  `fechaNac` VARCHAR(25) NULL ,  `telefono` INT NULL, `tipo_usuario` BINARY NOT NULL  ,  PRIMARY KEY (`email`) );
 
 -- -----------------------------------------------------
 -- Table `mydb`.`usuario_libro`
