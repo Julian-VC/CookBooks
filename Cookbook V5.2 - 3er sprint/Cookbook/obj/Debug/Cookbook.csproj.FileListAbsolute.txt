@@ -1,0 +1,135 @@
+c:\users\juan\documents\visual studio 2012\Projects\Cookbook\Cookbook\bin\Debug\Cookbook.exe.config
+C:\Users\Juan\Desktop\Cookbook\Cookbook\bin\Debug\Cookbook.exe.config
+C:\Users\Juan\Desktop\Cookbook\Cookbook\bin\Debug\Cookbook.exe
+C:\Users\Juan\Desktop\Cookbook\Cookbook\bin\Debug\Cookbook.pdb
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.exe
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.pdb
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+C:\Users\Juan\Desktop\Cookbook\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+G:\Cookbook\Cookbook\bin\Debug\Cookbook.exe.config
+G:\Cookbook\Cookbook\obj\Debug\Cookbook.exe
+G:\Cookbook\Cookbook\obj\Debug\Cookbook.pdb
+G:\CookbookV3\Cookbook\bin\Debug\Cookbook.exe.config
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.exe
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.pdb
+G:\CookbookV3\Cookbook\bin\Debug\Cookbook.exe
+G:\CookbookV3\Cookbook\bin\Debug\Cookbook.pdb
+G:\CookbookV3\Cookbook\bin\Debug\MySql.Data.dll
+G:\CookbookV3\Cookbook\bin\Debug\MySql.Data.Entity.dll
+G:\CookbookV3\Cookbook\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\CookbookV3\Cookbook\bin\Debug\MySql.Web.dll
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+G:\CookbookV3\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\bin\Debug\Cookbook.exe.config
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.exe
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.pdb
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\bin\Debug\Cookbook.exe
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\bin\Debug\Cookbook.pdb
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.agregar_usuario.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.eliminar_usuario.resources
+C:\Users\Julyan\Desktop\CookbookV3\Cookbook\obj\Debug\Cookbook.modificar_usuario.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe.config
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.exe
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.pdb
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.pdb
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_usuario.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.eliminar_usuario.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_usuario.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+C:\Users\Julyan\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe.config
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.exe
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.pdb
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.pdb
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_usuario.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.eliminar_usuario.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_usuario.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+C:\Users\Alumnos-UNAJ\Desktop\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache
+G:\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe.config
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.exe
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.pdb
+G:\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe
+G:\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.pdb
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_usuario.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.eliminar_usuario.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_usuario.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+G:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache
+H:\Cookbook V4 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe.config
+H:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.exe
+H:\Cookbook V4 - 2do sprint\Cookbook\obj\Debug\Cookbook.pdb
+F:\Cookbook V5 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe.config
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.exe
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.pdb
+F:\Cookbook V5 - 2do sprint\Cookbook\bin\Debug\Cookbook.exe
+F:\Cookbook V5 - 2do sprint\Cookbook\bin\Debug\Cookbook.pdb
+F:\Cookbook V5 - 2do sprint\Cookbook\bin\Debug\MySql.Data.Entity.EF6.dll
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.csprojResolveAssemblyReference.cache
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_autores.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_Libro.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.agregar_usuario.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.Autores_abm.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.autores_eliminar.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.eliminar_usuario.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.libros_eliminar.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.autor_modificar.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_libros.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.modificar_usuario.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.pantalla_usuario.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.Properties.Resources.resources
+F:\Cookbook V5 - 2do sprint\Cookbook\obj\Debug\Cookbook.csproj.GenerateResource.Cache

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D72DFFB9-1E6F-4DF8-8A36-6B5776932243}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cookbook</RootNamespace>
+    <AssemblyName>Cookbook</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Alumnos-UNAJ\Desktop\Connector NET 6.8.3\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Alumnos-UNAJ\Desktop\Connector NET 6.8.3\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>C:\Users\Alumnos-UNAJ\Desktop\Connector NET 6.8.3\Assemblies\v4.0\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>C:\Users\Alumnos-UNAJ\Desktop\Connector NET 6.8.3\Assemblies\v4.0\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agregar_autores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregar_autores.Designer.cs">
+      <DependentUpon>agregar_autores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="agregar_Libro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregar_Libro.Designer.cs">
+      <DependentUpon>agregar_Libro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="agregar_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregar_usuario.Designer.cs">
+      <DependentUpon>agregar_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="autores_abm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="autores_abm.Designer.cs">
+      <DependentUpon>autores_abm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="autores_eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="autores_eliminar.Designer.cs">
+      <DependentUpon>autores_eliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autor.cs" />
+    <Compile Include="eliminar_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminar_usuario.Designer.cs">
+      <DependentUpon>eliminar_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pantalla_compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pantalla_compra.Designer.cs">
+      <DependentUpon>pantalla_compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pantalla_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pantalla_usuario.Designer.cs">
+      <DependentUpon>pantalla_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="libros_eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="libros_eliminar.Designer.cs">
+      <DependentUpon>libros_eliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="autor_modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="autor_modificar.Designer.cs">
+      <DependentUpon>autor_modificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="modificar_libros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificar_libros.Designer.cs">
+      <DependentUpon>modificar_libros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificar_usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificar_usuario.Designer.cs">
+      <DependentUpon>modificar_usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="agregar_autores.resx">
+      <DependentUpon>agregar_autores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agregar_Libro.resx">
+      <DependentUpon>agregar_Libro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agregar_usuario.resx">
+      <DependentUpon>agregar_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="autores_abm.resx">
+      <DependentUpon>autores_abm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="autores_eliminar.resx">
+      <DependentUpon>autores_eliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar_usuario.resx">
+      <DependentUpon>eliminar_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="libros_eliminar.resx">
+      <DependentUpon>libros_eliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="autor_modificar.resx">
+      <DependentUpon>autor_modificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificar_libros.resx">
+      <DependentUpon>modificar_libros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificar_usuario.resx">
+      <DependentUpon>modificar_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pantalla_compra.resx">
+      <DependentUpon>pantalla_compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pantalla_usuario.resx">
+      <DependentUpon>pantalla_usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

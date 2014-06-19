@@ -1,0 +1,55 @@
+
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci ;
+USE `mydb` ;
+
+
+
+
+CREATE  TABLE libros (
+  `id_libro` INT NULL AUTO_INCREMENT ,
+  `titulo` VARCHAR(255) NOT NULL ,
+  `categoria` VARCHAR(45) NULL ,
+  `cant_hojas` INT NULL ,
+/*    'tapa` longblob NULL ,         */
+  `contra_tapa` longblob NULL ,
+  `editorial` VARCHAR(45) NULL ,
+  `precio` DECIMAL(8) NOT NULL ,
+  `año` INT NULL ,
+  `indice` longblob NULL ,
+  `stock` INT NOT NULL ,
+  PRIMARY KEY (`id_libro`) );
+
+
+
+
+CREATE  TABLE autores (
+  `id_autores` INT NULL AUTO_INCREMENT ,
+  `nombre` VARCHAR(45) NOT NULL ,
+  `apellido` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id_autores`) );
+
+
+
+CREATE  TABLE libroautor (
+  `libros_id_libro` INT NOT NULL ,
+  `autores_id_autores` INT NOT NULL ,
+  PRIMARY KEY (`libros_id_libro`, `autores_id_autores`) ,
+  INDEX `fk_libro-autor_autores1_idx` (`autores_id_autores` ASC) ,
+  CONSTRAINT `fk_libro-autor_libros`
+    FOREIGN KEY (`libros_id_libro` )
+    REFERENCES `cookbookbd`.`libros` (`id_libro` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_libro-autor_autores1`
+    FOREIGN KEY (`autores_id_autores` )
+    REFERENCES `cookbookbd`.`autores` (`id_autores` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+
+CREATE  TABLE usuario (  `email` VARCHAR(45) NOT NULL ,  `nomYApe` VARCHAR(45) NOT NULL ,  `pass` VARCHAR(45) NOT NULL ,  `direccion` VARCHAR(45) NOT NULL ,  `fechaNac` VARCHAR(25) NULL ,  `telefono` INT NULL, `tipo-usuario` BINARY NOT NULL  ,  PRIMARY KEY (`email`) );
+
+
+CREATE  TABLE usuariolibro (  `email` VARCHAR(45) NOT NULL ,  `id_libro` INT NOT NULL ,  PRIMARY KEY (`email`, `id_libro`) ,  INDEX `usuario-Email_idx` (`email` ASC) ,  INDEX `libro-Id_libro_idx` (`id_libro` ASC) ,  CONSTRAINT `usuario-Email`    FOREIGN KEY (`email` )    REFERENCES `mydb`.`usuario` (`email` )    ON DELETE NO ACTION    ON UPDATE NO ACTION,  CONSTRAINT `libro-Id_libro`    FOREIGN KEY (`id_libro` )    REFERENCES `cookbookbd`.`libros` (`id_libro` )    ON DELETE NO ACTION    ON UPDATE NO ACTION);
+
+
