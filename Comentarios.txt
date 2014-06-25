@@ -9,6 +9,13 @@ Riesgos -  Incompleto, corregir la tabla de riesgos del PGP. Hay confusion entre
 
 Doc de Interfaces - No entregado
 
+----------------------------------------
+PGP -  Aprobado -  25/06
+Riesgos - Aprobado - 25/06
+
+Doc de Interfaces - No entregado
+
+
 
 
 
