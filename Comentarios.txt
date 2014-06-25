@@ -1,7 +1,14 @@
 SRS - Aprobado - 22/05
 Entrevistas - Aprobado - 22/05
 Cuestionarios - Aprobado - 22/05
-PGP y Riesgos - Sin corregir
+
+-------------------------------------
+PGP - Aprobado- excepto al tabla de riesgos que son muy pocos y  no tienen la linea de corte
+
+Riesgos -  Incompleto, corregir la tabla de riesgos del PGP. Hay confusion entre Estrategia de mitigacion y Plan de Contingencia.
+
+Doc de Interfaces - No entregado
+
 
 
 
